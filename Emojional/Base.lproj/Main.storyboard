@@ -22,11 +22,17 @@
                                 <rect key="frame" x="131" y="233" width="152" height="180"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="140"/>
                                 <state key="normal" title="🤩"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0sm-KU-oDW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUC-jS-vpH">
                                 <rect key="frame" x="131" y="499" width="152" height="180"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="140"/>
                                 <state key="normal" title="🥺"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hms-bb-urj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.57254901960000004" green="0.6705882353" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
